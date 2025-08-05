@@ -1,0 +1,27 @@
+ ***What is Linting? ***
+ ------------------------
+Linting is the process of analyzing source code to detect:
+
+.Errors
+
+.Potential bugs
+
+.Style violations
+
+.Security vulnerabilities
+
+.Code smells (bad practices that don’t cause bugs but reduce code quality)
+
+It's often used in languages like Python, JavaScript, C/C++, Java, etc.
+
+ *** Why is Linting Important? ***
+ ---------------------------------
+1.Code Consistency: Enforces consistent style across your codebase.
+
+2.Catches Errors Early: Helps detect bugs before running the code.
+
+3.Improves Readability: Clean and standardized code is easier to read.
+
+4.Saves Time: Reduces debugging and code review time.
+
+5.Supports Best Practices: Encourages better programming habits.
