@@ -1,0 +1,20 @@
+Why you need virtual environments
+----------------------------------
+There are multiple reasons why virtual environments are a good idea, and this is also why I’m telling you about them before we continue to the part where we start installing 3rd party packages. Let’s go over them one by one.
+-->Easy to reproduce and install
+-->Works everywhere, even when not administrator (root)
+    
+    *How to create a Python venv*
+------------------------------------
+python -m venv <directory>
+ex-> python -m venv venv
+# In cmd.exe
+venv\Scripts\activate.bat
+# In PowerShell
+venv\Scripts\Activate.ps1
+
+*How a Python venv works*
+--------------------------
+echo %PATH% (in cmd.exe) or $Env:Path (in PowerShell).
+ex-> echo (message) >%path\file name%
+in this example echo is create a venv and store the message inside the given file
