@@ -18,3 +18,22 @@ venv\Scripts\Activate.ps1
 echo %PATH% (in cmd.exe) or $Env:Path (in PowerShell).
 ex-> echo (message) >%path\file name%
 in this example echo is create a venv and store the message inside the given file
+
+for structure 
+---------------
+-Linting (python_lting.txt)
+-Structuring Projects
+---invoice_calculator
+|
+---src
+|  |
+|   ---incoice
+|      |
+|      ---__init__.py
+|      ---core.py
+|      ---tax.py
+---tests
+|  |
+|   ---__init__.py
+|   ---test_core.py
+---main.py
